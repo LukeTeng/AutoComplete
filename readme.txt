@@ -1,5 +1,14 @@
 
 
+Introduction:
+  1, Trie is used as data structure for storage and lookup because its efficiencty and effective space occupation. 
+  2, Handler would read file (or by other ways) to get data and keep all words in the arraylist, Handler would call 
+     loadData API to load records into data bank. 
+     Only the words which contains Alphabet(a-zA-Z)only could be accepted into databank.
+     In the current application, all characters are changed into lower case for storage and lookup 
+     because Trie in this version support [a-z] only, refactor is needed in order to support upper case or numeric
+
+
 There are 3 items:
   1, srouce files named as AutoComplete_src+test.zip
   2, executable JAR file named as AutoComplete_JAR.zip
